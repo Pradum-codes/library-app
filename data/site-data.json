@@ -1,0 +1,743 @@
+{
+  "site": {
+    "name": "BookNest",
+    "tagline": "Curated reads for every mood",
+    "heroTitle": "Welcome to BookNest!",
+    "heroSubtitle": "Dive into a world of endless possibilities with our curated book recommendations that will ignite your imagination and enrich your reading journey.",
+    "about": "Welcome to BookNest, the place where your desire to read and our love of books collide. At BookNest, we firmly think that books have the ability to change lives by inspiring, transforming, and expanding horizons. Our goal is to provide a wide range of interesting articles that appeal to the interests of each and every reader. BookNest is your haven for literary study, whether you're looking for gripping tales, moving plays, or perplexing riddles. Come celebrate the wonder of storytelling with us, where every book is a fresh chapter on your life's adventure. Enjoy your reading!",
+    "contact": {
+      "email": "hello@booknest.example",
+      "note": "Reach out for recommendations or collaborations."
+    }
+  },
+  "featured": [
+    "mystery-the-adventures-of-sherlock-holmes",
+    "mystery-murder-on-the-orient-express",
+    "action-agent-21-codebreaker",
+    "action-alex-cross-must-die",
+    "fantasy-one-for-my-enemy",
+    "fantasy-legends-and-lattes"
+  ],
+  "genres": [
+    {
+      "slug": "fantasy",
+      "name": "Fantasy",
+      "description": "A haven for dreamers where fantastical stories come to life, mythological animals wander, and the unthinkable becomes possible.",
+      "hero": "Welcome to our Fantasy Haven, a haven for dreamers where fantastical stories come to life, mythological animals wander, and the unthinkable becomes possible. Let your imagination take flight on the backs of legendary marvels as you immerse yourself in the magical worlds created by the best storytellers.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810682/booknest/genres/fantasy.jpg"
+    },
+    {
+      "slug": "life-values",
+      "name": "Life Values",
+      "description": "Reflective reads that explore meaning, purpose, and the choices that shape our lives.",
+      "hero": "Explore stories that spotlight character, resilience, and the values that guide us through life’s toughest and brightest moments.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810684/booknest/genres/life-values.jpg"
+    },
+    {
+      "slug": "action-and-adventure",
+      "name": "Action and Adventure",
+      "description": "Pulse-pounding journeys through the realms of action and adventure.",
+      "hero": "Embark on a pulse-pounding journey through the realms of action and adventure, where every page is a thrill waiting to unfold.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810685/booknest/genres/action-and-adventure.jpg"
+    },
+    {
+      "slug": "mystery-and-investigation",
+      "name": "Mystery and Detective",
+      "description": "Enigmatic mysteries and investigations that beckon the curious mind to solve the riddles within.",
+      "hero": "Dive into the enigmatic world of mystery and investigation, where each turn of the page unravels secrets and beckons the curious mind to solve the riddles within.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810686/booknest/genres/mystery-and-investigation.jpg"
+    }
+  ],
+  "books": [
+    {
+      "id": "fantasy-sword-catcher",
+      "genre": "fantasy",
+      "title": "Sword Catcher",
+      "author": "Cassandra Clare",
+      "description": "Two outcasts find themselves at the centre of world-altering change in the start of an epic fantasy series from author of The Shadowhunter Chronicles. In Castellane, Kel is stolen to become Prince Conor Aurelian’s body-double. As his ‘Sword Catcher', Kel lives for one purpose: to die for Conor. Lin Caster is an Ashkar physician, part of a community ostracised for its rare magical abilities. But events pull her and Kel together and into the web of the mysterious Ragpicker King who rules Castellane’s criminal underworld. Together, they’ll discover an extraordinary conspiracy.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810304/booknest/fantasy/sword-catcher.webp"
+    },
+    {
+      "id": "fantasy-the-first-bright-thing",
+      "genre": "fantasy",
+      "title": "The First Bright Thing",
+      "author": "J. R. Dawson",
+      "description": "Ringmaster, or Rin for short, can jump to different moments in time. With the scars of World War I feeling more distant as the years pass, Rin is focusing on the brighter things in life, like the circus she’s built and the magical misfits and outcasts. But while the present is bright, threats come at Rin from the past as a malevolent shadow looms, and from the future with an impending war on the horizon.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810306/booknest/fantasy/the-first-bright-thing.webp"
+    },
+    {
+      "id": "fantasy-fall-of-ruin-and-wrath",
+      "genre": "fantasy",
+      "title": "Fall of Ruin and Wrath",
+      "author": "Jennifer L. Armentrout",
+      "description": "From the author of From Blood and Ash, Fall of Ruin and Wrath is a scorching romance with high stakes, breathtaking magic and a searing enemies-to-lovers romance. In a post-apocalyptic world ravaged by vengeful gods, nine surviving cities thrive under pleasure-seeking rulers. Calista, possessing infallible intuition, hides as a courtesan. She rescues a prince, triggering warnings of joy and doom.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810309/booknest/fantasy/fall-of-ruin-and-wrath.webp"
+    },
+    {
+      "id": "fantasy-one-for-my-enemy",
+      "genre": "fantasy",
+      "title": "One for My Enemy",
+      "author": "Olivie Blake",
+      "description": "In New York City, two rival witch families fight for the upper hand in Olivie Blake's new fantasy fiction. The Antonova sisters and their mother, Baba Yaga, are the elusive supplier of premium intoxicants while the Fedorov brothers and their crime boss father, Koschei the Deathless, dominate the shadows of magical Manhattan.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810311/booknest/fantasy/one-for-my-enemy.webp"
+    },
+    {
+      "id": "fantasy-scarlet",
+      "genre": "fantasy",
+      "title": "Scarlet",
+      "author": "Genevieve Cogman",
+      "description": "Revolutionary France is no place to be, especially for aristocrat vampires facing the guillotine. But the League of the Scarlet Pimpernel are determined to rescue them. And they have an ace up their sleeve: Eleanor, a lowly maid from an English estate with a striking resemblance to French royalty.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810313/booknest/fantasy/scarlet.webp"
+    },
+    {
+      "id": "fantasy-legends-and-lattes",
+      "genre": "fantasy",
+      "title": "Legends & Lattes",
+      "author": "Travis Baldree",
+      "description": "After decades of adventuring, Viv the orc barbarian is finally hanging up her sword for good to open the first coffee shop in the city of Thune. Even though no one there knows what coffee actually is. But old rivals and new stand in the way of success, and Thune’s shady underbelly could make it all too easy for Viv to take up the blade once more.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810318/booknest/fantasy/legends-and-lattes.webp"
+    },
+    {
+      "id": "life-values-book-title-1",
+      "genre": "life-values",
+      "title": "Book Title 1",
+      "author": "Author Name",
+      "description": "A brief description or recommendation for the book goes here...",
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/life-values/book-title-1.jpg"
+    },
+    {
+      "id": "life-values-book-title-2",
+      "genre": "life-values",
+      "title": "Book Title 2",
+      "author": "Author Name",
+      "description": "A brief description or recommendation for the book goes here...",
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/life-values/book-title-2.jpg"
+    },
+    {
+      "id": "action-empire-of-lies",
+      "genre": "action-and-adventure",
+      "title": "Empire of Lies",
+      "author": "",
+      "description": "When a mysterious stranger—naked, covered in strange tattoos—appears on the banks of the Seine, Kamal is called in to investigate. But what he discovers is a secret buried in the empire's past, a secret the Sultan will do anything to silence.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810344/booknest/action-and-adventure/empire-of-lies.jpg"
+    },
+    {
+      "id": "action-bravely",
+      "genre": "action-and-adventure",
+      "title": "Bravely",
+      "author": "Maggie Stifvater",
+      "description": "Under the watchful eyes of the gods, Merida leads a series of epic journeys to kingdoms near and far in an attempt to inspire revolution within her family. But in her efforts to save those she loves from ruin, has Merida lost sight of the Clan member grown most stagnant of all – herself",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810358/booknest/action-and-adventure/bravely.jpg"
+    },
+    {
+      "id": "action-hour-of-the-assassin",
+      "genre": "action-and-adventure",
+      "title": "Hour of the Assassin",
+      "author": "",
+      "description": "In this electrifying thriller from the author of The Night Agent now on Netflix, a former Secret Service agent who is framed and on the run discovers how far some men will go to grasp the highest office in the land.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810371/booknest/action-and-adventure/hour-of-the-assassin.jpg"
+    },
+    {
+      "id": "action-gone-by-dawn",
+      "genre": "action-and-adventure",
+      "title": "Gone by Dawn",
+      "author": "Tom Wood",
+      "description": "Victor is on the run in Bulgaria, with enemies closing in. Injured and exhausted he knows the only way to survive is to escape the country before dawn. But when a young woman shows him unexpected kindness, Victor lingers to repay the favor the only way he knows how.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810378/booknest/action-and-adventure/gone-by-dawn.jpg"
+    },
+    {
+      "id": "action-two-storm-wood",
+      "genre": "action-and-adventure",
+      "title": "Two Storm Wood",
+      "author": "Philip Gray",
+      "description": "Combining a wire-taut military thriller with a searching examination of the horrors of the First World War that continued even after the Armistice, Two Storm Wood finds a resourceful officer and a determined widow on the hunt for a psychopath.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810380/booknest/action-and-adventure/two-storm-wood.jpg"
+    },
+    {
+      "id": "action-the-silent-killer",
+      "genre": "action-and-adventure",
+      "title": "The Silent Killer",
+      "author": "Sawyer Specter",
+      "description": "Eighteen months after her husband's unsolved murder, Cathy Cantrell has returned to her Alabama home, eager to build a new life for herself and her son. But pieces of her past are everywhere--including Jackson Perdue, the town's deputy sheriff.",
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/action-and-adventure/the-silent-killer.jpg"
+    },
+    {
+      "id": "action-agent-21-codebreaker",
+      "genre": "action-and-adventure",
+      "title": "Agent 21 Codebreaker",
+      "author": "Chris Ryan",
+      "description": "An unknown bomber is conducting a terror campaign in London. After an explosion on the tube leaves someone dead, Zak and his team are brought in to try and work out how this terror cell operates - but clues are scarce and they have no idea where, or when, the bomber will strike next.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810385/booknest/action-and-adventure/agent-21-codebreaker.jpg"
+    },
+    {
+      "id": "action-clive-cussler",
+      "genre": "action-and-adventure",
+      "title": "Clive Cussler's",
+      "author": "Mike Maden",
+      "description": "The Oregon team must journey from the Amazon rainforest to an abandoned monastery in Eritrea before a final showdown in the mountains of Yemen, using every shred of courage and cunning they can muster to disable the ship-killer missile before the Arabian Sea becomes a mass grave.",
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/action-and-adventure/clive-cussler.jpg"
+    },
+    {
+      "id": "action-life-of-pi",
+      "genre": "action-and-adventure",
+      "title": "Life of Pi",
+      "author": "",
+      "description": "A fantasy which won the Booker Prize in 2002, Life of Pi tells the magical story of a young Indian, who finds himself shipwrecked and lost at sea in a large lifeboat.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810388/booknest/action-and-adventure/life-of-pi.jpg"
+    },
+    {
+      "id": "action-traitors",
+      "genre": "action-and-adventure",
+      "title": "Traitors",
+      "author": "Alex Shaw",
+      "description": "The plot of Traitors has many moving parts, involving Sophie going into war-torn Ukraine under the cover of a Russian journalist to kill a French traitor who had struck a large blow for the DGSE.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810393/booknest/action-and-adventure/traitors.jpg"
+    },
+    {
+      "id": "action-realm-breaker",
+      "genre": "action-and-adventure",
+      "title": "Realm Breaker",
+      "author": "Victoria Aveyard",
+      "description": "Realm Breaker follows a group of unexpected allies who must work together to save their universe from a seemingly insurmountable evil force.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810398/booknest/action-and-adventure/realm-breaker.jpg"
+    },
+    {
+      "id": "action-tristan-strong",
+      "genre": "action-and-adventure",
+      "title": "Tristan Strong Punches a Hole in the Sky",
+      "author": "Rick Riordan",
+      "description": "The story follows teenager Tristan Strong, who is struggling with guilt after his best friend's death. Tristan accidentally creates a rift that transports him to Alke, a parallel world where myths are real, and must survive the evil forces that threaten Alke's people.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810408/booknest/action-and-adventure/tristan-strong-punches-a-hole-in-the-sky.jpg"
+    },
+    {
+      "id": "action-fallen-from-babel",
+      "genre": "action-and-adventure",
+      "title": "Fallen From Babel",
+      "author": "T.L. Higley",
+      "description": "At the touch he is transported three thousand years back in time to Old Testament Babylon. Somehow he knows the language—and the people know him as Rim-Sin, sorcerer and high priest to the gods of Babylon.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810421/booknest/action-and-adventure/fallen-from-babel.jpg"
+    },
+    {
+      "id": "action-the-sentinel",
+      "genre": "action-and-adventure",
+      "title": "The Sentinel",
+      "author": "",
+      "description": "After leaving his job as a Military Police major, Reacher roams the United States taking odd jobs. He'll arrive in town, come across someone who needs his help, solve a mystery and take out the bad guys.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810464/booknest/action-and-adventure/the-sentinel.jpg"
+    },
+    {
+      "id": "action-wrath-of-poseidon",
+      "genre": "action-and-adventure",
+      "title": "Wrath of Poseidon",
+      "author": "Clive Cussler and Robin Burcell",
+      "description": "When Sam and Remi run afoul of a criminal drug-running operation, their hopes of finding the treasure are dashed. But with Sam's ingenuity and Remi's determination, they survive their confrontation with the drug runners.",
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/action-and-adventure/wrath-of-poseidon.jpg"
+    },
+    {
+      "id": "action-alex-cross-must-die",
+      "genre": "action-and-adventure",
+      "title": "Alex Cross Must Die",
+      "author": "James Patterson",
+      "description": "One of the greatest fictional detectives of all time is in the sights of the Dead Hours Killer, a serial murderer on a ruthless mission.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810629/booknest/action-and-adventure/alex-cross-must-die.jpg"
+    },
+    {
+      "id": "action-the-secret-war",
+      "genre": "action-and-adventure",
+      "title": "The Secret War",
+      "author": "Matt Myklusch",
+      "description": "In The Secret War, Max Hastings presents a worldwide cast of characters and extraordinary sagas of intelligence and Resistance to create a new perspective on the greatest conflict in history.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810630/booknest/action-and-adventure/the-secret-war.jpg"
+    },
+    {
+      "id": "mystery-the-adventures-of-sherlock-holmes",
+      "genre": "mystery-and-investigation",
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "description": "The Adventures of Sherlock Holmes is a collection of twelve short stories by Arthur Conan Doyle. Published in 1892, the stories involve the peculiar exploits of the sharp-witted detective Sherlock Holmes.",
+      "lessons": [
+        "Trust facts.",
+        "Never give up.",
+        "Stay a step ahead.",
+        "Have that one close friend.",
+        "Think outside the box."
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810632/booknest/mystery-and-investigation/the-adventures-of-sherlock-holmes.jpg"
+    },
+    {
+      "id": "mystery-murder-on-the-orient-express",
+      "genre": "mystery-and-investigation",
+      "title": "Murder on the Orient Express",
+      "author": "",
+      "description": "An American tycoon lies dead in his compartment, stabbed a dozen times, his door locked from the inside. Isolated and with a killer in their midst, detective Hercule Poirot must identify the murderer.",
+      "lessons": [
+        "Paying attention to details.",
+        "Knowing one's intention.",
+        "Thinking outside the box.",
+        "Resolve unresolved emotional baggage."
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810633/booknest/mystery-and-investigation/murder-on-the-orient-express.jpg"
+    },
+    {
+      "id": "mystery-the-big-sleep",
+      "genre": "mystery-and-investigation",
+      "title": "The Big Sleep",
+      "author": "Raymond Chandler",
+      "description": "Private investigator Philip Marlowe goes to the wealthy General Sternwood's home on a job. Sternwood is being blackmailed, and Sternwood wants Marlowe to make the problem go away.",
+      "lessons": [
+        "The Art of Pacing",
+        "Narrative Style",
+        "The Gritty Realism of the Underworld",
+        "Conflict and Resolution",
+        "Intricate Plotting"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810635/booknest/mystery-and-investigation/the-big-sleep.jpg"
+    },
+    {
+      "id": "mystery-in-the-woods",
+      "genre": "mystery-and-investigation",
+      "title": "In the Woods",
+      "author": "Tana French",
+      "description": "A pair of Irish detectives investigate the murder of a twelve-year-old girl. It is the first book in French's Dublin Murder Squad series.",
+      "lessons": [
+        "Exploration of Identity",
+        "Character Growth and Transformation",
+        "Unreliable Narration",
+        "Complex Relationships",
+        "Exploration of Trauma"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810636/booknest/mystery-and-investigation/in-the-woods.jpg"
+    },
+    {
+      "id": "mystery-gone-girl",
+      "genre": "mystery-and-investigation",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "description": "A psychological thriller: a tale of a marriage gone cold and a sociopath who will stop at nothing to get revenge.",
+      "lessons": [
+        "Exploration of Dark Themes",
+        "Narrative Manipulation",
+        "Twists and Surprises",
+        "Character Motivations",
+        "Moral Ambiguity"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810637/booknest/mystery-and-investigation/gone-girl.jpg"
+    },
+    {
+      "id": "mystery-the-silence-of-the-lambs",
+      "genre": "mystery-and-investigation",
+      "title": "The Silence of the Lambs",
+      "author": "Thomas Harris",
+      "description": "An FBI recruit named Clarice Starling works with former cannibal and serial killer Hannibal Lecter to solve a series of murders committed by Buffalo Bill.",
+      "lessons": [
+        "Exploration of the Unconscious",
+        "Resolution and Closure",
+        "Moral Dilemmas",
+        "Exploration of Fear",
+        "Law Enforcement Procedures"
+      ],
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/mystery/the-silence-of-the-lambs.jpg"
+    },
+    {
+      "id": "mystery-the-daughter-of-time",
+      "genre": "mystery-and-investigation",
+      "title": "The Daughter of Time",
+      "author": "",
+      "description": "Scotland Yard inspector Alan Grant, recovering from a broken leg, becomes fascinated with a contemporary portrait of Richard III, believed to have brutally killed his brother's children.",
+      "lessons": [
+        "Historical Investigation",
+        "The Power of Perception",
+        "The Influence of Media and Literature",
+        "Historical Context",
+        "Deductive Reasoning"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810638/booknest/mystery-and-investigation/the-daughter-of-time.jpg"
+    },
+    {
+      "id": "mystery-in-cold-blood",
+      "genre": "mystery-and-investigation",
+      "title": "In Cold Blood",
+      "author": "Truman Capote",
+      "description": "Details the 1959 murders of four members of the Clutter family in the small farming community of Holcomb, Kansas.",
+      "lessons": [
+        "True Crime Narrative",
+        "Psychological Exploration",
+        "Impact on a Community",
+        "Ethical and Moral Questions",
+        "Blurring the Line Between Fiction and Nonfiction"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810642/booknest/mystery-and-investigation/in-cold-blood.jpg"
+    },
+    {
+      "id": "mystery-the-guest-list",
+      "genre": "mystery-and-investigation",
+      "title": "The Guest List",
+      "author": "",
+      "description": "Set at a ritzy wedding-gone-wrong on a remote Scottish isle—starts with a murder, and then plays a game of keep-away with the victim's identity until the very last pages.",
+      "lessons": [
+        "Atmosphere of Suspense",
+        "Multiple Perspectives",
+        "Exploration of Marriage",
+        "Twists and Turns",
+        "Unraveling Secrets"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810645/booknest/mystery-and-investigation/the-guest-list.jpg"
+    },
+    {
+      "id": "mystery-one-of-us-is-lying",
+      "genre": "mystery-and-investigation",
+      "title": "One of Us Is Lying",
+      "author": "Claire B.",
+      "description": "",
+      "lessons": [
+        "High School Stereotypes and Prejudice",
+        "Impact of Rumors and Social Media",
+        "Friendship and Trust",
+        "Unexpected Twists"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810647/booknest/mystery-and-investigation/one-of-us-is-lying.jpg"
+    },
+    {
+      "id": "mystery-the-da-vinci-code",
+      "genre": "mystery-and-investigation",
+      "title": "The Da Vinci Code",
+      "author": "",
+      "description": "Follows symbologist Robert Langdon and cryptologist Sophie Neveu after a murder in the Louvre Museum in Paris causes them to become involved in a battle between the Priory of Sion and Opus Dei.",
+      "lessons": [
+        "Religious Symbolism",
+        "Art and History Integration",
+        "Code-Breaking and Cryptography",
+        "Conspiracy Theories"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810648/booknest/mystery-and-investigation/the-da-vinci-code.jpg"
+    },
+    {
+      "id": "mystery-the-seven-deaths-of-evelyn-hardcastle",
+      "genre": "mystery-and-investigation",
+      "title": "The Seven Deaths of Evelyn Hardcastle",
+      "author": "Author Name",
+      "description": "As fireworks explode overhead, Evelyn Hardcastle is killed. But Evelyn will not die just once. Until Aiden can solve her murder, the day will repeat itself, over and over again.",
+      "lessons": [
+        "Time Loop Mystery",
+        "Character Exploration",
+        "Themes of Redemption",
+        "Intricate Plotting",
+        "Mystery and Fantasy Fusion"
+      ],
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/mystery/the-seven-deaths-of-evelyn-hardcastle.jpg"
+    },
+    {
+      "id": "mystery-big-little-lies",
+      "genre": "mystery-and-investigation",
+      "title": "Big Little Lies",
+      "author": "",
+      "description": "Chronicles the events leading up to Perry's dramatic death at Pirriwee Public School's Trivia Night.",
+      "lessons": [
+        "Parenting and Social Pressures",
+        "Friendship and Betrayal",
+        "Domestic Violence",
+        "Schoolyard Bullying",
+        "Parental Involvement"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810649/booknest/mystery-and-investigation/big-little-lies.jpg"
+    },
+    {
+      "id": "mystery-shutter-island",
+      "genre": "mystery-and-investigation",
+      "title": "Shutter Island",
+      "author": "Dennis Lehane",
+      "description": "A U.S. Marshal goes to an isolated hospital for the criminally insane to investigate the disappearance of a patient who is a multiple murderer.",
+      "lessons": [
+        "Psychological Complexity",
+        "Isolation and Confinement",
+        "Ethical Dilemmas",
+        "Trauma and Memory",
+        "Reality vs. Perception"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810650/booknest/mystery-and-investigation/shutter-island.jpg"
+    },
+    {
+      "id": "mystery-the-black-echo",
+      "genre": "mystery-and-investigation",
+      "title": "The Black Echo",
+      "author": "",
+      "description": "Centers on Harry Bosch, a Vietnam veteran who served as a tunnel rat with the 1st Infantry Division.",
+      "lessons": [
+        "Police Procedural",
+        "Post-Vietnam War Trauma",
+        "Consequences of Corruption",
+        "Character Development",
+        "Urban Setting"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810651/booknest/mystery-and-investigation/the-black-echo.jpg"
+    },
+    {
+      "id": "mystery-fatal-grace",
+      "genre": "mystery-and-investigation",
+      "title": "Fatal Grace",
+      "author": "",
+      "description": "The second Chief Inspector Armand Gamache mystery set in the stunning countryside of Quebec.",
+      "lessons": [
+        "Small-Town Atmosphere",
+        "Character-Driven Plot",
+        "Murder Mystery",
+        "Themes of Deception and Secrets",
+        "Leadership"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810653/booknest/mystery-and-investigation/fatal-grace.jpg"
+    },
+    {
+      "id": "mystery-the-curious-incident",
+      "genre": "mystery-and-investigation",
+      "title": "The Curious Incident of the Dog in the Night",
+      "author": "Mark Haddon",
+      "description": "A brief description or recommendation for the book goes here...",
+      "lessons": [
+        "Autism Perspective",
+        "Mystery and Detective Work",
+        "Family Dynamics",
+        "Mathematics and Logic",
+        "Overcoming Challenges"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810654/booknest/mystery-and-investigation/the-curious-incident-of-the-dog-in-the-night.jpg"
+    },
+    {
+      "id": "mystery-the-cruellest-month",
+      "genre": "mystery-and-investigation",
+      "title": "The Cruellest Month",
+      "author": "",
+      "description": "Chief Inspector Armand Gamache investigates a case that will force him to face his own ghosts as well as those of a seemingly idyllic town.",
+      "lessons": [
+        "Village Dynamics",
+        "Detective Work and Investigation",
+        "Character Development",
+        "Themes of Psychology and Motivation",
+        "Reflection on Cruelty"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810655/booknest/mystery-and-investigation/the-cruellest-month.jpg"
+    },
+    {
+      "id": "mystery-the-brutal-telling",
+      "genre": "mystery-and-investigation",
+      "title": "The Brutal Telling",
+      "author": "",
+      "description": "A stranger is found murdered in the village bistro and antiques store. Chief Inspector Gamache and his team are called in to strip back layers of lies.",
+      "lessons": [
+        "Community and Friendship",
+        "Art and Antiques",
+        "Detective Work and Investigation",
+        "Character Complexity",
+        "Exploration of Secrets"
+      ],
+      "image": "https://res.cloudinary.com/your-cloud-name/image/upload/v1/booknest/mystery/the-brutal-telling.jpg"
+    },
+    {
+      "id": "mystery-the-decagon-house-murder",
+      "genre": "mystery-and-investigation",
+      "title": "The Decagon House Murder",
+      "author": "",
+      "description": "Students from a university mystery club decide to visit an island which was the site of a grisly multiple murder the year before. Predictably, they get picked off one by one by an unseen murderer.",
+      "lessons": [
+        "Classic Mystery Homage",
+        "Isolation and Suspense",
+        "Puzzle-solving and Deduction",
+        "Exploration of Themes",
+        "Narrative Layers"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810657/booknest/mystery-and-investigation/the-decagon-house-murder.jpg"
+    },
+    {
+      "id": "mystery-the-deep-blue-goodbye",
+      "genre": "mystery-and-investigation",
+      "title": "The Deep Blue Goodbye",
+      "author": "Travis McGee",
+      "description": "One of many classic novels featuring Travis McGee, the hard-boiled detective who lives on a houseboat.",
+      "lessons": [
+        "Travis McGee's Character",
+        "Florida Setting",
+        "Boat and Marina Culture",
+        "Themes of Justice and Revenge",
+        "Character Relationships"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810659/booknest/mystery-and-investigation/the-deep-blue-goodbye.jpg"
+    },
+    {
+      "id": "mystery-still-life",
+      "genre": "mystery-and-investigation",
+      "title": "Still Life",
+      "author": "Author Name",
+      "description": "Traces the impact of World War II on Italy and the British expatriates living there. Still Life shows the lives of LGBTQ+ characters during the mid-20th century.",
+      "lessons": [
+        "Character of Chief Inspector Armand Gamache",
+        "Symbolism in Art",
+        "Detective Work and Investigation",
+        "Reflection on Human Nature",
+        "Community Dynamics"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810661/booknest/mystery-and-investigation/still-life.jpg"
+    },
+    {
+      "id": "mystery-killing-floor-reacher",
+      "genre": "mystery-and-investigation",
+      "title": "Killing Floor",
+      "author": "",
+      "description": "Ex-military policeman Jack Reacher persuades a Greyhound bus driver to make an unscheduled stop in Margrave, the small Georgia town where Reacher's brother has been murdered.",
+      "lessons": [
+        "Small Town Mystery",
+        "Action and Suspense",
+        "Military Background",
+        "Themes of Justice",
+        "Series Foundation"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810662/booknest/mystery-and-investigation/killing-floor.jpg"
+    },
+    {
+      "id": "mystery-killing-floor-strike",
+      "genre": "mystery-and-investigation",
+      "title": "Killing Floor",
+      "author": "Robert Galbraith",
+      "description": "When a troubled model falls to her death from a snow-covered Mayfair balcony, it is assumed that she has committed suicide. Her brother calls in private investigator Cormoran Strike to look into the case.",
+      "lessons": [
+        "Cormoran Strike's Character",
+        "Celebrity Culture",
+        "Investigative Process",
+        "Social Issues",
+        "Deception and Secrets"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810662/booknest/mystery-and-investigation/killing-floor.jpg"
+    },
+    {
+      "id": "action-and-adventure-the-silient-killer",
+      "genre": "action-and-adventure",
+      "title": "The silient Killer",
+      "author": "Sawyer specter",
+      "description": "Eighteen months after her husband's unsolved murder, Cathy Cantrell has returned to her Alabama home, eager to build a new life for herself and her son. But pieces of her past are everywhere--including Jackson Perdue, the town's deputy sheriff.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810665/booknest/action-and-adventure/the-silient-killer.jpg"
+    },
+    {
+      "id": "action-and-adventure-cive-cussler-s",
+      "genre": "action-and-adventure",
+      "title": "Cive Cussler's",
+      "author": "Mike Maden",
+      "description": "The Oregon team must journey from the Amazon rainforest to an abandoned monastery in Eritrea before a final showdown in the mountains of Yemen, using every shred of courage and cunning they can muster to disable the ship-killer missile before the Arabian Sea becomes a mass grave.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810666/booknest/action-and-adventure/cive-cussler-s.jpg"
+    },
+    {
+      "id": "action-and-adventure-wrath-of-posedion",
+      "genre": "action-and-adventure",
+      "title": "Wrath of Posedion",
+      "author": "Clive Cussler and Robin Burcell",
+      "description": "When Sam and Remi run afoul of a criminal drug-running operation, their hopes of finding the treasure are dashed. But with Sam's ingenuity and Remi's determination, they survive their confrontation with the drug runners, and manage to send one of the key players to prison.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810667/booknest/action-and-adventure/wrath-of-posedion.jpg"
+    },
+    {
+      "id": "action-and-adventure-the-ancient-nine",
+      "genre": "action-and-adventure",
+      "title": "The Ancient Nine",
+      "author": "Ian K. Smith",
+      "description": "Soon, Spenser and Dalton are plunged into a century-old mystery about a group of alums known as the Ancient Nine whose identities are unknown, whose power is absolute, and whose intentions are darker and more dangerous than they could have ever imagined.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810668/booknest/action-and-adventure/the-ancient-nine.jpg"
+    },
+    {
+      "id": "action-and-adventure-the-king-of-the-ice-cap",
+      "genre": "action-and-adventure",
+      "title": "The King of the Ice Cap",
+      "author": "Felix Mayerhofer",
+      "description": "Miles Lewis loves science and sports. But when his teacher announces a class field trip to an ice skating rink to learn about physics, he isn't so excited. He's never ice skated before, and his friend RJ won't let him forget it.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810669/booknest/action-and-adventure/the-king-of-the-ice-cap.jpg"
+    },
+    {
+      "id": "action-and-adventure-the-whole-truth",
+      "genre": "action-and-adventure",
+      "title": "The Whole Truth",
+      "author": "Daviv Balacci",
+      "description": "A powerful arms dealer Nicolas Creel is a man on a mission. As the head of a major arms vendor, he is plotting a ruthless plan to supercharge his company's profits by triggering a new cold war – and he won't let anyone stand in his way.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810671/booknest/action-and-adventure/the-whole-truth.jpg"
+    },
+    {
+      "id": "action-and-adventure-before-the-storm",
+      "genre": "action-and-adventure",
+      "title": "Before The Storm",
+      "author": "R.G. Roberts",
+      "description": "The weight of my family's future is on my shoulders. Our parents are gone and there hasn't been a day since their death that we haven't been in danger. But now we have a new threat, one that's getting a little too close to home, and with it brings my very own brand of heroine.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810672/booknest/action-and-adventure/before-the-storm.jpg"
+    },
+    {
+      "id": "action-and-adventure-traitors-gate",
+      "genre": "action-and-adventure",
+      "title": "Traitors Gate",
+      "author": "Jeffrey Archer",
+      "description": "The race against time is about to begin… Home to the most valuable jewels on earth. But once a year, when the Queen attends the State Opening of Parliament, the Metropolitan Police must execute the most secret operation in their armory as they transport the Crown Jewels across London.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810674/booknest/action-and-adventure/traitors-gate.jpg"
+    },
+    {
+      "id": "action-and-adventure-the-wars",
+      "genre": "action-and-adventure",
+      "title": "The Wars",
+      "author": "Timothy Findley",
+      "description": "The Wars is a 1977 novel by Timothy Findley that follows Robert Ross, a nineteen-year-old Canadian who enlists in World War I after the death of his beloved older sister in an attempt to escape both his grief and the social norms of oppressive Edwardian society.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810675/booknest/action-and-adventure/the-wars.jpg"
+    },
+    {
+      "id": "action-and-adventure-when-the-lion-feeds",
+      "genre": "action-and-adventure",
+      "title": "When the Lion Feeds",
+      "author": "Wilbur Smith",
+      "description": "The Wars is a 1977 novel by Timothy Findley that follows Robert Ross, a nineteen-year-old Canadian who enlists in World War I after the death of his beloved older sister in an attempt to escape both his grief and the social norms of oppressive Edwardian society.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810676/booknest/action-and-adventure/when-the-lion-feeds.jpg"
+    },
+    {
+      "id": "action-and-adventure-montello-high",
+      "genre": "action-and-adventure",
+      "title": "Montello High",
+      "author": "Sielalstreim",
+      "description": "The romance is cute at some points but dark and deep in a few moments. It had its fair share of moments and the kind of romance involved in the book played a major role in how the story goes. Over-all, Montello High is an adventurous and ambitious book that could rampage to every book ranking list.",
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810677/booknest/action-and-adventure/montello-high.jpg"
+    },
+    {
+      "id": "mystery-and-investigation-the-silenceof-the-lambs",
+      "genre": "mystery-and-investigation",
+      "title": "The silenceof the lambs",
+      "author": "Thomas harris",
+      "description": "The Silence of the Lambs is a crime thriller novel by Thomas Harris. It is about an FBI recruit named Clarice Starling who has to work with former cannibal and serial killer Hannibal Lecter to solve a series of murders committed by Buffalo Bill.",
+      "lessons": [
+        "Exploration of the Unconscious",
+        "Resolution and Closure",
+        "Moral Dilemmas",
+        "Exploration of Fear",
+        "Law Enforcement Procedures"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810678/booknest/mystery-and-investigation/the-silenceof-the-lambs.jpg"
+    },
+    {
+      "id": "mystery-and-investigation-the-seven-deaths-of-evelynn-headcastle",
+      "genre": "mystery-and-investigation",
+      "title": "The seven deaths of Evelynn Headcastle",
+      "author": "Author Name",
+      "description": "As fireworks explode overhead, Evelyn Hardcastle, the young and beautiful daughter of the house, is killed. But Evelyn will not die just once. Until Aiden – one of the guests summoned to Blackheath for the party – can solve her murder, the day will repeat itself, over and over again.",
+      "lessons": [
+        "Time Loop Mystery",
+        "Character Exploration",
+        "Themes of Redemption",
+        "Intricate Plotting",
+        "Mystery and Fantasy Fusion"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810680/booknest/mystery-and-investigation/the-seven-deaths-of-evelynn-headcastle.jpg"
+    },
+    {
+      "id": "mystery-and-investigation-the-brutual-telling",
+      "genre": "mystery-and-investigation",
+      "title": "The Brutual Telling",
+      "author": "",
+      "description": "As families prepare to head back to the city and children say goodbye to summer, a stranger is found murdered in the village bistro and antiques store. Once again, Chief Inspector Gamache and his team are called in to strip back layers of lies, exposing both treasures and rancid secrets buried in the wilderness.",
+      "lessons": [
+        "Community and Friendship",
+        "Art and Antiques",
+        "Detective Work and Investigation",
+        "Character Complexity",
+        "Exploration of Secrets"
+      ],
+      "image": "https://res.cloudinary.com/dsax7zaig/image/upload/v1772810681/booknest/mystery-and-investigation/the-brutual-telling.jpg"
+    }
+  ]
+}
