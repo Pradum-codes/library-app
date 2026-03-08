@@ -5,6 +5,12 @@ import clientPromise from "@/lib/mongodb";
 import localData from "@/data/site-data.json";
 import type { SiteData } from "@/lib/site-types";
 
+type SiteDataDoc = {
+  _id: string;
+  data: SiteData;
+  updatedAt?: Date;
+};
+
 const COLLECTION = "site_data";
 const DOC_ID = "booknest";
 const LOCAL_DATA_PATH = path.join(process.cwd(), "data", "site-data.json");
@@ -14,7 +20,9 @@ export async function getSiteData(): Promise<SiteData> {
     const dbName = process.env.MONGODB_DB || "booknest";
     const client = await clientPromise;
     const db = client.db(dbName);
-    const doc = await db.collection(COLLECTION).findOne({ _id: DOC_ID });
+    const doc = await db
+      .collection<SiteDataDoc>(COLLECTION)
+      .findOne({ _id: DOC_ID });
 
     if (doc && doc.data) {
       return doc.data as SiteData;
@@ -35,7 +43,7 @@ export async function setSiteData(data: SiteData): Promise<void> {
     const dbName = process.env.MONGODB_DB || "booknest";
     const client = await clientPromise;
     const db = client.db(dbName);
-    await db.collection(COLLECTION).updateOne(
+    await db.collection<SiteDataDoc>(COLLECTION).updateOne(
       { _id: DOC_ID },
       { $set: { data, updatedAt: new Date() } },
       { upsert: true }

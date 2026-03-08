@@ -14,16 +14,16 @@ export async function PUT(request: Request) {
   }
 
   const featured = body.featured.map((id) => id.trim()).filter(Boolean);
+  const deduped = Array.from(new Set(featured));
 
   try {
     const data = await updateSiteData((current) => {
       const bookIds = new Set(current.books.map((book) => book.id));
-      const invalid = featured.filter((id) => !bookIds.has(id));
+      const invalid = deduped.filter((id) => !bookIds.has(id));
       if (invalid.length > 0) {
         throw new Error("Featured list contains unknown book IDs.");
       }
 
-      const deduped = Array.from(new Set(featured));
       return { ...current, featured: deduped };
     });
 
