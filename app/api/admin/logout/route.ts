@@ -1,0 +1,12 @@
+import { NextResponse } from "next/server";
+
+import {
+  ADMIN_SESSION_COOKIE,
+  clearAdminCookieOptions,
+} from "@/lib/auth";
+
+export async function POST(request: Request) {
+  const response = NextResponse.redirect(new URL("/admin/login", request.url));
+  response.cookies.set(ADMIN_SESSION_COOKIE, "", clearAdminCookieOptions());
+  return response;
+}
